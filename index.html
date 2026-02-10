@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- ==== BASIC META ==== -->
@@ -144,4 +143,58 @@
     h1, h2, h3 { color: #222; margin-top: 1.2rem; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    ul {
+    ul { list-style: none; padding: 0; }
+    .article-list li {
+      border-bottom: 1px solid #ddd;
+      padding: 0.8rem 0;
+    }
+    .article-list li a {
+      font-weight: bold;
+      font-size: 1.1rem;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    .article-list li a:hover { color: #004499; }
+    .article-date { font-size: 0.9rem; color: #666; margin: 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dawn Marie Daras, PhD</h1>
+  <p>Behavioral Data Scientist | Former IBM & Microsoft | Founder, Marie Daras LLC</p>
+</header>
+
+<main>
+  <section id="medium-articles">
+    <h2>Medium Articles</h2>
+    <ul class="article-list">
+      <li>
+        <a href="https://medium.com/@drmariedaras/the-naked-truth-about-rape-violence-gossip-and-institutional-failure" target="_blank" rel="noopener">
+          The Naked Truth About Rape: Violence, Gossip, and Institutional Failure
+        </a>
+        <p class="article-date">Published: Feb 1, 2026</p>
+      </li>
+      <li>
+        <a href="https://medium.com/@drmariedaras/example-article-2" target="_blank" rel="noopener">
+          Example Article Title 2
+        </a>
+        <p class="article-date">Published: Jan 15, 2026</p>
+      </li>
+      <li>
+        <a href="https://medium.com/@drmariedaras/example-article-3" target="_blank" rel="noopener">
+          Example Article Title 3
+        </a>
+        <p class="article-date">Published: Dec 28, 2025</p>
+      </li>
+      <!-- Add more articles here following the same format -->
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Dawn Marie Daras, PhD | <a href="https://www.mariedarasllc.com/right-of-reply">Right of Reply</a></p>
+</footer>
+
+</body>
+</html>
