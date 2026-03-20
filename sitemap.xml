@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Canonical Page -->
   <url>
     <loc>https://mariedarasphd.github.io/dawnmariedaras-canonical/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <priority>1.0</priority>
   </url>
-
-  <!-- Medium Articles -->
-  <url>
-    <loc>https://medium.com/@drmariedaras/behind-the-badge-a-police-wife-survives-blue-against-blue-125b051947e4</loc>
-    <lastmod>2025-12-01</lastmod>
-  </url>
-  <url>
-    <loc>https://medium.com/@drmariedaras/from-al-capone-to-epstein-organized-crime-persists-because-networks-and-money-7920b4047968</loc>
-    <lastmod>2025-12-05</lastmod>
-  </url>
-  <url>
-    <loc>https://medium.com/@dawndarasms/avoiding-double-trouble-entity-resolution-84998dd8351b</loc>
-    <lastmod>2025-12-07</lastmod>
-  </url>
-  <url>
-    <loc>https://medium.com/@drmariedaras/from-business-problem-to-data-science-solution-a-practical-guide-486e18346fee</loc>
-    <lastmod>2025-12-10</lastmod>
-  </url>
-  <url>
-    <loc>https://medium.com/@drmariedaras/from-raw-to-refined-cleaning-and-organizing-womens-retail-shoe-data-00407ceb72b9</loc>
-    <lastmod>2025-12-12</lastmod>
-  </url>
-  <url>
-    <loc>https://medium.com/@drmariedaras/you-are-the-shield-part-2-the-protective-bonds-of-the-parent-child-relationship-52b00f9e2add</loc>
-    <lastmod>2025-12-14</lastmod>
-  </url>
-
-  <!-- Add more Medium article URLs in the same format -->
-  
 </urlset>
