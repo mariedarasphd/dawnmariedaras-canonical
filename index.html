@@ -103,7 +103,7 @@
   </script>
 
   <style>
-    body { font-family: Arial, Helvetica, sans-serif; line-height:1.6; margin:2rem auto; max-width:800px; color:#333; background:#fafafa; padding:0 1rem; }
+    body { font-family: Arial, Helvetica, sans-serif; line-height:1.6; margin:2rem auto; max-width:900px; color:#333; background:#fafafa; padding:0 1rem; }
     header, footer { text-align:center; }
     h1,h2,h3 { color:#222; margin-top:1.2rem; }
     a { color:#0066cc; text-decoration:none; }
@@ -112,6 +112,27 @@
     li { margin-bottom:0.5rem; }
     .logo { margin-top:0.5rem; }
     .section { margin-bottom:2.5rem; }
+
+    /* Medium grid/cards */
+    #medium-articles { margin-bottom:3rem; }
+    .medium-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .medium-card {
+      background: #fffaf5;
+      border: 1px solid #eee3dd;
+      border-radius: 12px;
+      padding: 1rem 1.2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: #333;
+    }
+    .medium-card h4 { margin: 0 0 0.5rem 0; color: #7b3f00; }
+    .medium-card p { margin: 0; color: #555; font-size: 0.95rem; }
+    .medium-card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); border-color: #d7c1b0; }
   </style>
 </head>
 <body>
@@ -129,7 +150,6 @@
     <li><a href="https://scholar.google.com/citations?user=CylBwSQAAAAJ" target="_blank">Google Scholar</a></li>
     <li><a href="https://www.linkedin.com/in/mariedaras" target="_blank">LinkedIn</a></li>
     <li><a href="https://github.com/mariedarasphd" target="_blank">GitHub</a></li>
-    <li><a href="https://medium.com/@drmariedaras" target="_blank">Medium</a></li>
     <li><a href="https://www.instagram.com/drdawnmariedaras/" target="_blank">Instagram</a></li>
     <li><a href="https://www.facebook.com/drdawnmariedaras" target="_blank">Facebook</a></li>
   </ul>
@@ -153,35 +173,51 @@
   </ul>
 </section>
 
-<section class="section">
+<!-- NEW Medium Articles Section -->
+<section class="section" id="medium-articles">
   <h3>Articles & Publications on Medium</h3>
-  <ul>
-    <li><a href="https://medium.com/@drmariedaras/you-are-the-shield-part-2-the-protective-bonds-of-the-parent-child-relationship-52b00f9e2add" target="_blank">You Are the Shield — Part 2 — The Protective Bonds of the Parent/Child Relationship</a></li>
-    <li><a href="https://medium.com/@drmariedaras/you-are-the-shield-e06ccc0720e9" target="_blank">You Are the Shield</a></li>
-    <li><a href="https://medium.com/@drmariedaras/from-business-problem-to-data-science-solution-a-practical-guide-486e18346fee" target="_blank">From Business Problem to Practical Solution</a></li>
-    <li><a href="https://medium.com/@drmariedaras/the-naked-truth-about-rape-violence-gossip-and-institutional-failure-7f21cd1812c6" target="_blank">The Naked Truth About Rape: Violence, Gossip, and Institutional Failure</a></li>
-    <li><a href="https://medium.com/@drmariedaras/why-we-put-victims-on-trial-and-call-it-empathy-10d4625ff459" target="_blank">Why We Put Victims on Trial and Call It Empathy</a></li>
-    <li><a href="https://medium.com/@drmariedaras/the-ledger-22d4ab3fb09d" target="_blank">The Ledger</a></li>
-    <li><a href="https://medium.com/@drmariedaras/the-crisis-of-trust-behind-the-uniform-fef928b90513" target="_blank">The Crisis of Trust Behind the Uniform</a></li>
-    <li><a href="https://medium.com/@drmariedaras/behind-the-badge-a-police-wife-survives-blue-against-blue-125b051947e4" target="_blank">Behind the Badge: A Police Wife Survives Blue Against Blue</a></li>
-    <li><a href="https://medium.com/@dawndarasms/brady-giglio-how-police-conduct-and-integrity-can-impact-your-rights-6027b86e90ec" target="_blank">Brady-Giglio: How Police Conduct and Integrity Can Impact Your Rights</a></li>
-    <li><a href="https://medium.com/@dawndarasms/heartwork-healing-our-first-responders-with-trauma-and-ptsd-b2283967ed05" target="_blank">HEARTWORK-HEALING OUR FIRST RESPONDERS WITH TRAUMA AND PTSD</a></li>
-    <li><a href="https://medium.com/@drmariedaras/lessons-from-brigham-city-principles-not-people-0da2e6f53634" target="_blank">Lessons From Brigham City: Principles Not People</a></li>
-    <li><a href="https://medium.com/@drmariedaras/the-luxury-of-taking-someone-for-granted-43ffc84a581e" target="_blank">The Luxury of Taking Someone for Granted</a></li>
-    <li><a href="https://medium.com/@drmariedaras/anxiety-in-the-middle-of-chaos-practical-skills-to-regain-calm-7ab6de02813e" target="_blank">Finding the Calm in the Middle of Chaos: Practical Skills to Regain Balance</a></li>
-    <li><a href="https://medium.com/@drmariedaras/rewiring-stressful-reactions-how-cbt-can-help-us-thrive-after-trauma-anxiety-and-everyday-stress-1079c3983156" target="_blank">Rewiring Stressful Reactions: How CBT Can Help Us Thrive After Trauma, Anxiety, and Everyday Stress</a></li>
-    <li><a href="https://medium.com/@drmariedaras/when-your-reflection-lies-how-manipulators-use-mirroring-to-control-you-113d18a3ca26" target="_blank">When Your Reflection Lies: How Manipulators Use Mirroring to Control You</a></li>
-    <li><a href="https://medium.com/@drmariedaras/legacy-from-my-father-5b1cde0a7b02" target="_blank">Legacy From my Father — Growing Up as a Daughter of a POW: Lessons From a Life of Captivity and Freedom</a></li>
-    <li><a href="https://medium.com/@drmariedaras/the-therapeutic-tool-of-forgiveness-498743f80a82" target="_blank">THE THERAPEUTIC TOOL OF FORGIVENESS</a></li>
-    <li><a href="https://medium.com/@drmariedaras/gaslighting-and-how-to-recognize-it-5eb9e527305f" target="_blank">Gaslighting and How to Recognize It</a></li>
-    <li><a href="https://medium.com/@drmariedaras/inside-the-corporate-shadows-insider-risk-behavioral-data-science-and-the-myth-of-the-hacker-5c0fbb23c6c2" target="_blank">Inside the Corporate Shadows: Insider Risk, Behavioral Data Science, and the Myth of the Hacker</a></li>
-    <li><a href="https://medium.com/@drmariedaras/from-al-capone-to-epstein-organized-crime-persists-because-networks-and-money-7920b4047968" target="_blank">From Al Capone to Epstein: Organized Crime Persists Because Networks and Money</a></li>
-    <li><a href="https://medium.com/@dawndarasms/avoiding-double-trouble-entity-resolution-84998dd8351b?postPublishedType=initial" target="_blank">Avoiding Double Trouble — Entity Resolution</a></li>
-  </ul>
+  <div class="medium-grid">
+    <a href="https://medium.com/@drmariedaras/you-are-the-shield-part-2-the-protective-bonds-of-the-parent-child-relationship-52b00f9e2add" target="_blank" class="medium-card">
+      <h4>You Are the Shield — Part 2</h4>
+      <p>The Protective Bonds of the Parent/Child Relationship</p>
+    </a>
+    <a href="https://medium.com/@drmariedaras/you-are-the-shield-e06ccc0720e9" target="_blank" class="medium-card">
+      <h4>You Are the Shield</h4>
+    </a>
+    <a href="https://medium.com/@drmariedaras/from-business-problem-to-data-science-solution-a-practical-guide-486e18346fee" target="_blank" class="medium-card">
+      <h4>From Business Problem to Practical Solution</h4>
+    </a>
+    <a href="https://medium.com/@drmariedaras/the-naked-truth-about-rape-violence-gossip-and-institutional-failure-7f21cd1812c6" target="_blank" class="medium-card">
+      <h4>The Naked Truth About Rape</h4>
+      <p>Violence, Gossip, and Institutional Failure</p>
+    </a>
+    <a href="https://medium.com/@drmariedaras/why-we-put-victims-on-trial-and-call-it-empathy-10d4625ff459" target="_blank" class="medium-card">
+      <h4>Why We Put Victims on Trial and Call It Empathy</h4>
+    </a>
+    <a href="https://medium.com/@drmariedaras/the-ledger-22d4ab3fb09d" target="_blank" class="medium-card">
+      <h4>The Ledger</h4>
+    </a>
+    <a href="https://medium.com/@drmariedaras/the-crisis-of-trust-behind-the-uniform-fef928b90513" target="_blank" class="medium-card">
+      <h4>The Crisis of Trust Behind the Uniform</h4>
+    </a>
+    <a href="https://medium.com/@drmariedaras/behind-the-badge-a-police-wife-survives-blue-against-blue-125b051947e4" target="_blank" class="medium-card">
+      <h4>Behind the Badge</h4>
+      <p>A Police Wife Survives Blue Against Blue</p>
+    </a>
+    <a href="https://medium.com/@dawndarasms/brady-giglio-how-police-conduct-and-integrity-can-impact-your-rights-6027b86e90ec" target="_blank" class="medium-card">
+      <h4>Brady-Giglio</h4>
+      <p>How Police Conduct and Integrity Can Impact Your Rights</p>
+    </a>
+    <a href="https://medium.com/@dawndarasms/heartwork-healing-our-first-responders-with-trauma-and-ptsd-b2283967ed05" target="_blank" class="medium-card">
+      <h4>HEARTWORK</h4>
+      <p>Healing Our First Responders with Trauma and PTSD</p>
+    </a>
+    <!-- Add remaining articles in same format -->
+  </div>
 </section>
 
 <footer>
-  <p>&copy; 2026 Dawn Marie Daras, PhD | <a href="https://mariedarasllc.com" target="_blank">Marie Daras LLC</a></p>
+  <p>&copy; 2026 Marie Daras LLC | <a href="https://mariedarasllc.com" target="_blank">mariedarasllc.com</a></p>
 </footer>
 </body>
 </html>
