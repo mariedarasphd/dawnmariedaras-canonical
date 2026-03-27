@@ -1,118 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- Canonical homepage -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mariedarasphd.github.io/dawnmariedaras-canonical/</loc>
-    <lastmod>2026-03-26</lastmod>
     <priority>1.0</priority>
-  </url>
-
-  <!-- Medium articles -->
-  <url>
-    <loc>https://medium.com/@drmariedaras/you-are-the-shield-e06ccc0720e9</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/you-are-the-shield-part-2-the-protective-bonds-of-the-parent-child-relationship-52b00f9e2add</loc>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medium.com/@drmariedaras/you-are-the-shield-e06ccc0720e9</loc>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/from-business-problem-to-data-science-solution-a-practical-guide-486e18346fee</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/the-naked-truth-about-rape-violence-gossip-and-institutional-failure-7f21cd1812c6</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/why-we-put-victims-on-trial-and-call-it-empathy-10d4625ff459</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/the-ledger-22d4ab3fb09d</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/the-crisis-of-trust-behind-the-uniform-fef928b90513</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/behind-the-badge-a-police-wife-survives-blue-against-blue-125b051947e4</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@dawndarasms/brady-giglio-how-police-conduct-and-integrity-can-impact-your-rights-6027b86e90ec</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@dawndarasms/heartwork-healing-our-first-responders-with-trauma-and-ptsd-b2283967ed05</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/lessons-from-brigham-city-principles-not-people-0da2e6f53634</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/the-luxury-of-taking-someone-for-granted-43ffc84a581e</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/anxiety-in-the-middle-of-chaos-practical-skills-to-regain-calm-7ab6de02813e</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/rewiring-stressful-reactions-how-cbt-can-help-us-thrive-after-trauma-anxiety-and-everyday-stress-1079c3983156</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/when-your-reflection-lies-how-manipulators-use-mirroring-to-control-you-113d18a3ca26</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/legacy-from-my-father-5b1cde0a7b02</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/the-therapeutic-tool-of-forgiveness-498743f80a82</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/gaslighting-and-how-to-recognize-it-5eb9e527305f</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/inside-the-corporate-shadows-insider-risk-behavioral-data-science-and-the-myth-of-the-hacker-5c0fbb23c6c2</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@drmariedaras/from-al-capone-to-epstein-organized-crime-persists-because-networks-and-money-7920b4047968</loc>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medium.com/@dawndarasms/avoiding-double-trouble-entity-resolution-84998dd8351b?postPublishedType=initial</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Other key pages -->
-  <url>
-    <loc>https://mariedarasllc.com</loc>
-    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://smb-risk-demo.streamlit.app/</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://executiverisk-dashboard.streamlit.app/</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://movie-recommender-customer.streamlit.app/</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cryptocommand.streamlit.app/</loc>
-    <priority>0.7</priority>
+    <loc>https://www.prlog.org/13128348-dr-dawn-marie-daras-issues-right-of-reply-to-ksl-reporting.html</loc>
   </url>
 </urlset>
